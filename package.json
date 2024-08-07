@@ -1,0 +1,64 @@
+{
+  "name": "@sencha/ext-pivot-locale",
+  "version": "7.8.0",
+  "sencha": {
+      "name": "mvp-pivot-locale",
+      "namespace": "Pivot.locale",
+      "type": "code",
+      "framework": "ext",
+      "creator": "Sencha",
+      "summary": "Sencha Pivot locale",
+      "detailedDescription": "Localization for the pivot package",
+      "version": "7.8.0.33",
+      "compatVersion": "7.8.0",
+      "format": "1",
+      "output": {
+          "base": "${package.dir}/build/${build.id}",
+          "js": "..",
+          "sass": ""
+      },
+      "local": true,
+      "sass": {
+          "namespace": "Ext",
+          "etc": [
+              "${package.dir}/sass/etc/all.scss",
+              "${package.dir}/${toolkit.name}/sass/etc/all.scss"
+          ],
+          "var": [
+              "${package.dir}/sass/var",
+              "${package.dir}/${toolkit.name}/sass/var"
+          ],
+          "src": [
+              "${package.dir}/sass/src",
+              "${package.dir}/${toolkit.name}/sass/src"
+          ]
+      },
+      "classpath": [
+          "${package.dir}/src",
+          "${package.dir}/${toolkit.name}/src"
+      ],
+      "overrides": [
+          "${package.dir}/overrides/${package.locale}",
+          "${package.dir}/${toolkit.name}/overrides/${package.locale}"
+      ]
+  },
+  "description": "Sencha Pivot locale",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wemersonjanuario/mvp-pivot-locale.git"
+  },
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {},
+  "author": "Wemerson Januario",
+  "homepage": "https://www.sencha.com/products/extjs/",
+  "bugs": "https://github.com/wemersonjanuario/mpv-pivot-locale/issues",
+  "keywords": [
+      "sencha",
+      "sencha-mvp",
+      "mvp",
+      "extjs",
+      "ext js",
+      "ext-js",
+      "ext"
+  ]
+}

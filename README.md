@@ -1,4 +1,4 @@
-# mvp-pivote-locale
+# mvp-pivot-locale
 
 The missing locale package for Ext JS pivot grid
 

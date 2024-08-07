@@ -1,8 +1,16 @@
-Ext.define('Ext.locale.tr.pivot.plugin.configurator.Panel', {
+Ext.define('Ext.locale.en.pivot.plugin.configurator.Panel', {
     override: 'Ext.pivot.plugin.configurator.Panel',
 
-    panelAllFieldsText:     'Kullanılmayan alanları buraya sürükleyin',
-    panelTopFieldsText:     'Sütun alanlarını buraya sürükleyin',
-    panelLeftFieldsText:    'Satır alanlarını buraya sürükleyin',
-    panelAggFieldsText:     'Hesap alanlarını buraya sürükleyin'
+    panelTitle:             'Configuration',
+    cancelText:             'Cancel',
+    okText:                 'Done',
+
+    panelAllFieldsText:     'Drop Unused Fields Here',
+    panelTopFieldsText:     'Drop Column Fields Here',
+    panelLeftFieldsText:    'Drop Row Fields Here',
+    panelAggFieldsText:     'Drop Agg Fields Here',
+    panelAllFieldsTitle:    'All fields',
+    panelTopFieldsTitle:    'Column labels',
+    panelLeftFieldsTitle:   'Row labels',
+    panelAggFieldsTitle:    'Values'
 });
